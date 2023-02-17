@@ -1,0 +1,81 @@
+.comments {
+  padding: 15px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+  @include breakpoint(xs) {
+    padding: 8px 0 0 0;
+  }
+
+  &__count {
+    margin-bottom: 26px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.9);
+
+    @include breakpoint(lg) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &-leave {
+    display: flex;
+    align-items: stretch;
+    gap: 19.36px;
+    margin-bottom: 40px;
+
+    @include breakpoint(lg) {
+      margin-bottom: 30px;
+    }
+
+    &__input {
+      width: 100%;
+      color: rgba(255, 255, 255, 0.9);
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      outline: none;
+    }
+  }
+
+  &-body {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  &-footer {
+    margin-top: 44px;
+
+    @include breakpoint(lg) {
+      margin-top: 35px;
+    }
+
+    @include breakpoint(xs) {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__btn {
+    margin-left: 25px;
+    margin-bottom: 48px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    @include breakpoint(lg) {
+      margin-bottom: 35px;
+    }
+
+    @include breakpoint(xs) {
+      margin-left: 0;
+      margin-bottom: 44px;
+    }
+  }
+}
