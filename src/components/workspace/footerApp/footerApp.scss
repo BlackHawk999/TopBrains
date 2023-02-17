@@ -5,7 +5,6 @@
   background: #141414;
   overflow: hidden;
 
-
   @include breakpoint(md) {
     padding: 40px 0 0 0;
   }
@@ -34,6 +33,31 @@
   &__icon {
     width: 24px;
     height: 24px;
+
+    &.fb:hover {
+      svg path {
+        transition: all 0.3s;
+        fill: #0d8af0;
+      }
+    }
+    &.ins:hover {
+      svg path {
+        transition: all 0.3s;
+        fill: #c13584;
+      }
+    }
+    &.tg:hover {
+      svg path {
+        transition: all 0.3s;
+        fill: #138ac5;
+      }
+    }
+    &.yt:hover {
+      svg path {
+        transition: all 0.3s;
+        fill: #ff0000;
+      }
+    }
 
     svg {
       width: 100%;
@@ -114,6 +138,12 @@
     padding-bottom: 20px;
     list-style: none;
     text-align: center;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: translateY(-10%);
+      color: #f8a404;
+    }
 
     &:last-child {
       padding-bottom: 0;
@@ -124,6 +154,11 @@
       line-height: 22px;
       color: rgba(255, 255, 255, 0.9);
       text-decoration: none;
+      transition: all 0.3s;
+
+      &:hover {
+        color: #f8a404;
+      }
     }
   }
 

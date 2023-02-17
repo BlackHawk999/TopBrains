@@ -115,6 +115,10 @@
       &:last-child {
         border-bottom: none;
       }
+
+      &:hover {
+        opacity: 0.2;
+      }
     }
 
     &__name {

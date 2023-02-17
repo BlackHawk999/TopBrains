@@ -13,7 +13,7 @@
             от ведущих мастеров своей сферы
           </p>
           <div class="footer-socials">
-            <a href="#" class="footer__icon">
+            <a href="#" class="footer__icon fb">
               <svg
                 width="20"
                 height="20"
@@ -30,7 +30,7 @@
                 />
               </svg>
             </a>
-            <a href="#" class="footer__icon">
+            <a href="#" class="footer__icon ins">
               <svg
                 width="20"
                 height="20"
@@ -47,7 +47,7 @@
                 />
               </svg>
             </a>
-            <a href="#" class="footer__icon">
+            <a href="#" class="footer__icon tg">
               <svg
                 width="20"
                 height="16"
@@ -62,7 +62,7 @@
                 />
               </svg>
             </a>
-            <a href="#" class="footer__icon">
+            <a href="#" class="footer__icon yt">
               <svg
                 width="20"
                 height="15"
